@@ -1,0 +1,461 @@
+body {
+    font-family: poppins;
+    justify-content: center;
+    text-align: center;
+    background: #f1f1f1;
+    margin: 0;
+    top: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    cursor: pointer;
+    margin: 0.3em;
+
+    a {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #f1f1f1;
+    }
+
+    span {
+        color: #5CFF8F;
+    }
+}
+
+.navbar {
+    display: block;
+    background: #1f1f1f;
+
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    nav {
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        padding: 0;
+
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            color: #bbbbbb;
+            font-size: 1em;
+            padding: 0.5em;
+            // width: 100%;
+            margin: auto;
+            display: flex;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+.hero {
+    margin: 2em;
+    padding: 0;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+.hero-para {
+    p {
+        text-align: center;
+        padding: 0 0.4em;
+        font-size: 1.25em;
+        font-weight: 600;
+        line-height: 36px;
+    }
+}
+
+ul.key-list {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(19rem, 1fr));
+    justify-content: center;
+    text-align: center;
+
+    li {
+        text-align: center;
+        font-size: 1.1em;
+        margin: 0.5em;
+        font-weight: 500;
+        position: relative;
+    }
+}
+
+.packs {
+    padding: 0;
+    position: relative;
+
+    .container {
+        background-color: #1f1f1f;
+        text-align: left;
+        margin: auto;
+        padding: 0.5em 0;
+    }
+
+    h2 {
+        color: white;
+        text-align: center;
+        padding: 0;
+        margin: 1em 0;
+        font-size: 1.8em;
+    }
+}
+
+div.pack {
+    justify-content: center;
+    text-align: left;
+    width: auto;
+    height: auto;
+    margin: 2em; 
+    padding: 2em;
+    border-radius: 2em;
+    background-color: #5CFF8F;
+
+    h4 {
+        font-size: 2.5em;
+        color: #1f1f1f;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.2em;
+        color: rgb(26, 36, 31);
+        margin: 0;
+        text-align: center;
+    }
+
+    .download-btn {
+        font-size: 19px;
+        cursor: pointer;
+        color: white;
+        text-align: center;
+        margin: 1em ;
+        display: block;
+        padding: 1em;
+        background-color: #1f1f1f;
+        border-radius: 1.25em;
+    }
+
+    .sub-link{
+        text-align: center;
+    }
+
+    .download-link {
+        margin: 0;
+        padding: 0 0.25em;
+        position: relative;
+        text-align: center;
+        display: inline;
+
+    }
+
+    a {
+        padding: 0;
+        // display: block;
+        margin: 0;
+        text-decoration: none;
+        color: #f1f1f1;
+
+    }
+
+    #download-link-2 {
+        text-align: center;
+        color: #30854b;
+        font-weight: bold;
+    }
+
+    .sticker {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        color: #1f1f1f;
+        margin: 0;
+        padding: 0;
+        display: block;
+
+    }
+
+    .version-info{
+        display: none;
+    }
+}
+
+// div.pack {
+//     box-shadow: 0px 0px 5px gray;
+//     // display: grid;
+//     // grid-template-columns: repeat(auto-fit, mimax(19rem, 1fr));
+//     justify-content: left;
+//     text-align: left;
+
+//     h4 {
+//     }
+
+
+// }
+
+
+// ul.more-menu {
+//     display: none;
+//     margin: 0;
+//     padding: 0;
+//     // grid-template-columns: repeat(auto-fit, mimax(19rem, 1fr));
+//     justify-content: center;
+//     text-align: center;
+//     text-decoration: none;
+
+//     li {
+//         font-size: 1.1em;
+//         width: 100%;
+//         margin: auto;
+//         position: relative;
+//     }
+// }
+
+div.contact-section-icons {
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        height: auto;
+        width: auto;
+    }
+}
+
+.social-icon {
+    margin: 1em;
+    width: 3em;
+    transition: width 0.5s;
+
+    &:hover {
+        width: 3.5em;
+    }
+}
+
+footer {
+    color: white;
+    background: #1f1f1f;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .logo{
+        a{
+            font-size: 2em;
+        }
+    }
+    ul.key-list {
+        justify-content: center;
+        text-align: left;
+    }
+
+    .hero-para {
+        p {
+            padding: 0 2em;
+        }
+    }
+
+    div.pack {
+        margin: 2em auto;
+        width: 60%;
+        padding: 1em 2em;
+        justify-content: left;
+        text-align: left;
+
+        h4 {
+            font-size: 2em;
+        }
+
+        .download-btn {
+            font-size: 19px;
+            display: block;
+            cursor: pointer;
+            color: white;
+            text-align: center;
+            margin: 2em 4em;
+            padding: 1em;
+            background-color: #1f1f1f;
+            border-radius: 1.25em;
+        }
+
+        .download-link {
+            text-align: center;
+            margin: 0;
+            width: 100%;
+            padding: 0 0.25em;
+            display: inline;
+            position: relative;
+
+        }
+
+        #download-link-2 {
+            text-align: center;
+            display: inline;
+            color: #30854b;
+            font-weight: bold;
+        }
+
+        .sub-link {
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}
+
+.read-more {
+    margin: 0;
+    padding: 0;
+    display: none;
+    // grid-template-columns: repeat(auto-fit, mimax(19rem, 1fr));
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1080px) {
+    .logo{
+        a{
+            font-size: 3em;
+        }
+    }
+    .hero {
+        margin: 3em 5em;
+        padding: 0;
+        position: relative;
+    }
+
+    .hero-para {
+        p {
+            font-size: 1.6em;
+        }
+    }
+
+    ul.key-list {
+        li {
+            font-weight: 500;
+            font-size: 1.5em;
+            margin: 1em;
+            position: relative;
+            text-align: center;
+        }
+    }
+
+    div.pack {
+        margin: 2em auto;
+        width: 50%;
+        padding: 1em 2em;
+        justify-content: left;
+        text-align: left;
+
+        p {
+            text-align: left;
+            display: inline;
+        }
+        
+        h4 {
+            display: inline;
+            font-size: 2em;
+            text-align: left;
+        }
+
+        .btn{
+            padding-bottom: 3em;
+            justify-content: right;
+            text-align: right;
+        }
+        .download-btn {
+            font-size: 19px;
+            cursor: pointer;
+            color: white;
+            margin: 0em;
+            padding: 1.2em 2em;
+            display: inline;
+            text-align: right;
+            background-color: #1f1f1f;
+            border-radius: 1.25em;
+        }
+
+        .download-link {
+            margin: 0;
+            padding: 0 0.25em;
+        }
+
+        a {
+            padding: 0;
+            // display: inline;
+            margin: 0;
+            text-decoration: none;
+            color: #f1f1f1;
+
+        }
+
+        #download-link-2 {
+            color: #30854b;
+            font-weight: bold;
+        }
+
+        .sticker {
+            // display: block;
+            font-weight: 500;
+            font-size: 16px;
+            color: #1f1f1f;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            position: relative;
+        }
+
+        .sub-link {
+            // display: inline;
+            justify-content: center;
+            text-align: right;
+            position: relative;
+            // padding-right: 1em;
+            bottom: 1em;
+            padding: 0;
+            display: block;
+        }
+        
+        .version-info{
+            display: block;
+        }
+    }
+}

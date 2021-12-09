@@ -1,0 +1,7 @@
+<svg id="Mail" xmlns="http://www.w3.org/2000/svg" width="58" height="59" viewBox="0 0 58 59">
+  <path id="Path_7" data-name="Path 7" d="M29,0A29.253,29.253,0,0,1,58,29.5,29.253,29.253,0,0,1,29,59,29.253,29.253,0,0,1,0,29.5,29.253,29.253,0,0,1,29,0Z" fill="#ffe1c4"/>
+  <g id="Component_4_1" data-name="Component 4 – 1" transform="translate(15.615 19.288)">
+    <rect id="Rectangle_22" data-name="Rectangle 22" width="26.769" height="20.423" rx="3" fill="#fff"/>
+    <path id="Icon_simple-gmail" data-name="Icon simple-gmail" d="M26.769,6.2V23.221a1.658,1.658,0,0,1-1.673,1.7H23.423V9.478L13.385,16.811,3.346,9.478V24.923H1.673A1.657,1.657,0,0,1,0,23.221V6.2A1.707,1.707,0,0,1,.481,4.99,1.642,1.642,0,0,1,1.673,4.5h.558l11.154,8.226L24.538,4.5H25.1a1.65,1.65,0,0,1,1.192.49A1.7,1.7,0,0,1,26.769,6.2Z" transform="translate(0 -4.5)" fill="#db4437"/>
+  </g>
+</svg>

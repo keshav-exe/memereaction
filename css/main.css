@@ -1,0 +1,421 @@
+body {
+  font-family: poppins;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #f1f1f1;
+  margin: 0;
+  top: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  cursor: pointer;
+  margin: 0.3em;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #f1f1f1;
+}
+
+.logo span {
+  color: #5CFF8F;
+}
+
+.navbar {
+  display: block;
+  background: #1f1f1f;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar nav {
+  width: 100%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  color: #bbbbbb;
+  font-size: 1em;
+  padding: 0.5em;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar nav a:hover {
+  color: white;
+}
+
+.hero {
+  margin: 2em;
+  padding: 0;
+  position: relative;
+}
+
+.hero a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.hero-para p {
+  text-align: center;
+  padding: 0 0.4em;
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+ul.key-list {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (mimax(19rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, mimax(19rem, 1fr));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+ul.key-list li {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 0.5em;
+  font-weight: 500;
+  position: relative;
+}
+
+.packs {
+  padding: 0;
+  position: relative;
+}
+
+.packs .container {
+  background-color: #1f1f1f;
+  text-align: left;
+  margin: auto;
+  padding: 0.5em 0;
+}
+
+.packs h2 {
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 1em 0;
+  font-size: 1.8em;
+}
+
+div.pack {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  width: auto;
+  height: auto;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 2em;
+  background-color: #5CFF8F;
+}
+
+div.pack h4 {
+  font-size: 2.5em;
+  color: #1f1f1f;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+div.pack p {
+  font-size: 1.2em;
+  color: #1a241f;
+  margin: 0;
+  text-align: center;
+}
+
+div.pack .download-btn {
+  font-size: 19px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  margin: 1em;
+  display: block;
+  padding: 1em;
+  background-color: #1f1f1f;
+  border-radius: 1.25em;
+}
+
+div.pack .sub-link {
+  text-align: center;
+}
+
+div.pack .download-link {
+  margin: 0;
+  padding: 0 0.25em;
+  position: relative;
+  text-align: center;
+  display: inline;
+}
+
+div.pack a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+div.pack #download-link-2 {
+  text-align: center;
+  color: #30854b;
+  font-weight: bold;
+}
+
+div.pack .sticker {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1f1f1f;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+div.pack .version-info {
+  display: none;
+}
+
+div.contact-section-icons ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.contact-section-icons li {
+  height: auto;
+  width: auto;
+}
+
+.social-icon {
+  margin: 1em;
+  width: 3em;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.social-icon:hover {
+  width: 3.5em;
+}
+
+footer {
+  color: white;
+  background: #1f1f1f;
+  padding: 1em;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 500px) {
+  .logo a {
+    font-size: 2em;
+  }
+  ul.key-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+  }
+  .hero-para p {
+    padding: 0 2em;
+  }
+  div.pack {
+    margin: 2em auto;
+    width: 60%;
+    padding: 1em 2em;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    text-align: left;
+  }
+  div.pack h4 {
+    font-size: 2em;
+  }
+  div.pack .download-btn {
+    font-size: 19px;
+    display: block;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    margin: 2em 4em;
+    padding: 1em;
+    background-color: #1f1f1f;
+    border-radius: 1.25em;
+  }
+  div.pack .download-link {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding: 0 0.25em;
+    display: inline;
+    position: relative;
+  }
+  div.pack #download-link-2 {
+    text-align: center;
+    display: inline;
+    color: #30854b;
+    font-weight: bold;
+  }
+  div.pack .sub-link {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+.read-more {
+  margin: 0;
+  padding: 0;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1080px) {
+  .logo a {
+    font-size: 3em;
+  }
+  .hero {
+    margin: 3em 5em;
+    padding: 0;
+    position: relative;
+  }
+  .hero-para p {
+    font-size: 1.6em;
+  }
+  ul.key-list li {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 1em;
+    position: relative;
+    text-align: center;
+  }
+  div.pack {
+    margin: 2em auto;
+    width: 50%;
+    padding: 1em 2em;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    text-align: left;
+  }
+  div.pack p {
+    text-align: left;
+    display: inline;
+  }
+  div.pack h4 {
+    display: inline;
+    font-size: 2em;
+    text-align: left;
+  }
+  div.pack .btn {
+    padding-bottom: 3em;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    text-align: right;
+  }
+  div.pack .download-btn {
+    font-size: 19px;
+    cursor: pointer;
+    color: white;
+    margin: 0em;
+    padding: 1.2em 2em;
+    display: inline;
+    text-align: right;
+    background-color: #1f1f1f;
+    border-radius: 1.25em;
+  }
+  div.pack .download-link {
+    margin: 0;
+    padding: 0 0.25em;
+  }
+  div.pack a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #f1f1f1;
+  }
+  div.pack #download-link-2 {
+    color: #30854b;
+    font-weight: bold;
+  }
+  div.pack .sticker {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1f1f1f;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    position: relative;
+  }
+  div.pack .sub-link {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: right;
+    position: relative;
+    bottom: 1em;
+    padding: 0;
+    display: block;
+  }
+  div.pack .version-info {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
