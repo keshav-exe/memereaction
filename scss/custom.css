@@ -3,7 +3,6 @@
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -13,18 +12,16 @@ html {
 
 .social-icon {
   margin: 1em;
-  width: 3em;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  font-size: 2em;
+  color: white;
 }
-
 .social-icon:hover {
-  -webkit-filter: drop-shadow(0px 0px 15px rgba(255, 0, 119, 0.555));
-          filter: drop-shadow(0px 0px 15px rgba(255, 0, 119, 0.555));
+  transform: translateY(-6px);
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 1.5em;
   background-color: #020502;
 }
@@ -38,7 +35,6 @@ a {
   top: 0;
   left: 0;
   border-radius: 1em;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0))), url("/assets/hero.jpg");
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0)), url("/assets/hero.jpg");
   background-size: cover;
   background-position-x: 20%;
@@ -47,16 +43,13 @@ a {
   height: 100vh;
   z-index: -1;
   overflow: hidden;
-  -webkit-animation: introLoad 2s forwards ease-out;
-          animation: introLoad 2s forwards ease-out;
+  animation: introLoad 2s forwards ease-out;
 }
 
 .logo img {
   height: 70px;
-  -webkit-animation: logoLoad 1s infinite alternate ease-in-out;
-          animation: logoLoad 1s infinite alternate ease-in-out;
-  -webkit-filter: drop-shadow(0px 0px 12px rgba(0, 255, 51, 0.589));
-          filter: drop-shadow(0px 0px 12px rgba(0, 255, 51, 0.589));
+  animation: logoLoad 1s infinite alternate ease-in-out;
+  filter: drop-shadow(0px 0px 12px rgba(0, 255, 51, 0.589));
 }
 
 nav {
@@ -64,12 +57,10 @@ nav {
   right: 0;
   top: -1em;
 }
-
 nav ul {
   list-style-type: none;
   padding: 0;
 }
-
 nav .close {
   float: right;
   margin: 2em;
@@ -77,17 +68,12 @@ nav .close {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 header svg {
   width: 2.3em;
-  margin-top: -.6em;
+  margin-top: -0.6em;
   cursor: pointer;
 }
 
@@ -111,19 +97,16 @@ h1 {
 section.hero {
   color: #f1f1f1;
   height: 80vh;
-  -webkit-animation: textIntro 2s ease-in-out forwards;
-          animation: textIntro 2s ease-in-out forwards;
+  animation: textIntro 2s ease-in-out forwards;
   opacity: 0;
 }
-
 section.hero a {
-  color: #F0A500;
+  color: #f0a500;
 }
 
 .more-info {
   margin-bottom: 5em;
 }
-
 .more-info img {
   width: 100%;
   -o-object-fit: cover;
@@ -132,37 +115,31 @@ section.hero a {
   border-radius: 1.2em;
   margin-top: 2em;
 }
-
 .more-info .tile {
   height: 16em;
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: none;
 }
-
 .more-info .title {
   margin-bottom: 0.2em;
   font-weight: bold;
   font-size: 2.5rem;
   color: white;
 }
-
 .more-info .btn {
   cursor: pointer;
-  padding: 1.0em;
+  padding: 1em;
   border-radius: 0.8em;
   background-color: #094218;
   color: #f1f1f1;
   font-weight: 800;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .more-info .btn:hover {
   color: #00ff33;
   background-color: #05290c;
 }
-
 .more-info .desc {
   margin-bottom: 2em;
   line-height: 1.5rem;
@@ -170,28 +147,21 @@ section.hero a {
 }
 
 .open-nav {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 footer {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
 footer a {
   font-size: 1rem;
   color: white;
 }
 
 .feature {
-  -webkit-animation: featureLoad 2s ease-in-out forwards;
-          animation: featureLoad 2s ease-in-out forwards;
+  animation: featureLoad 2s ease-in-out forwards;
 }
 
 #snackbar {
@@ -201,7 +171,7 @@ footer a {
   /* Set a default minimum width */
   margin-left: -125px;
   /* Divide value of min-width by 2 */
-  background-color: #05290c9a;
+  background-color: rgba(5, 41, 12, 0.6039215686);
   /* Black background color */
   color: #fff;
   /* White text color */
@@ -219,32 +189,15 @@ footer a {
   /* Center the snackbar */
   bottom: 30px;
   /* 30px from the bottom */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #snackbar.show {
   display: block;
-  /* Show the snackbar */
-  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
-    However, delay the fade out process for 2.5 seconds */
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
 /* Animations to fade the snackbar in and out */
-@-webkit-keyframes fadein {
-  from {
-    bottom: 0;
-    opacity: 0;
-  }
-  to {
-    bottom: 30px;
-    opacity: 1;
-  }
-}
-
 @keyframes fadein {
   from {
     bottom: 0;
@@ -255,18 +208,6 @@ footer a {
     opacity: 1;
   }
 }
-
-@-webkit-keyframes fadeout {
-  from {
-    bottom: 30px;
-    opacity: 1;
-  }
-  to {
-    bottom: 0;
-    opacity: 0;
-  }
-}
-
 @keyframes fadeout {
   from {
     bottom: 30px;
@@ -277,24 +218,21 @@ footer a {
     opacity: 0;
   }
 }
-
 @media only screen and (min-width: 680px) {
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 1.5em 5em;
   }
   #snackbar {
     left: 45%;
   }
 }
-
 @media only screen and (min-width: 900px) {
   .menu {
     display: none;
   }
   nav {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     position: unset;
     display: block;
     width: auto;
@@ -305,8 +243,6 @@ footer a {
     display: none;
   }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 0;
   }
@@ -314,27 +250,7 @@ footer a {
     color: white;
     padding: 0.5em 1.5em;
     font-size: 0.9rem;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
-  nav ul a:hover {
-    background: none;
-    color: #e9c370;
-  }
-  nav ul .btn {
-    color: #F0A500;
-    font-weight: 900;
-    padding: 0.5em;
-    border-radius: 0.33em;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    text-align: center;
-  }
-  nav ul .btn:hover {
-    color: #f1f1f1;
-    background-color: #f0a4008f;
-    -webkit-transform: scale(115%);
-            transform: scale(115%);
   }
   .hero-img {
     left: unset;
@@ -358,10 +274,8 @@ footer a {
     color: #f4f4f4;
   }
   .feature {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[2];
-        grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
     gap: 3em;
     margin-bottom: 8em;
   }
@@ -375,22 +289,17 @@ footer a {
     width: 25em;
   }
   .feature.left {
-        grid-template-areas: "left";
+    grid-template-areas: "left";
   }
   .feature.left img {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: left;
   }
   .feature.left .content {
     text-align: left;
     width: 25em;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    justify-content: left;
   }
 }
-
 @media only screen and (min-width: 1080px) {
   #snackbar {
     left: 48%;
@@ -413,36 +322,16 @@ footer a {
     gap: 5em;
     margin-top: 2em;
     margin-bottom: 4em;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
   footer {
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    justify-content: left;
     text-align: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    align-items: left;
   }
 }
-
-@-webkit-keyframes introLoad {
-  from {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-  to {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-}
-
 @keyframes introLoad {
   from {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -453,76 +342,30 @@ footer a {
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
-
-@-webkit-keyframes textIntro {
-  from {
-    -webkit-transform: translateY(-32px);
-            transform: translateY(-32px);
-  }
-  to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    opacity: 100%;
-  }
-}
-
 @keyframes textIntro {
   from {
-    -webkit-transform: translateY(-32px);
-            transform: translateY(-32px);
+    transform: translateY(-32px);
   }
   to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
     opacity: 100%;
   }
 }
-
-@-webkit-keyframes featureLoad {
-  from {
-    -webkit-transform: translateY(64px);
-            transform: translateY(64px);
-    opacity: 0%;
-  }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 100%;
-  }
-}
-
 @keyframes featureLoad {
   from {
-    -webkit-transform: translateY(64px);
-            transform: translateY(64px);
+    transform: translateY(64px);
     opacity: 0%;
   }
   to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 100%;
   }
 }
-
-@-webkit-keyframes logoLoad {
-  from {
-    -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
-  }
-  to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
 @keyframes logoLoad {
   from {
-    -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
+    transform: translateY(-4px);
   }
   to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
-}
-/*# sourceMappingURL=custom.css.map */
+}/*# sourceMappingURL=custom.css.map */
