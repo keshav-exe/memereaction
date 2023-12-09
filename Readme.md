@@ -22,7 +22,7 @@ MemeReaction is your portal to the abyss—a clandestine repository of meme pack
 
 MemeReaction is the creation of **Keshav Bagaade**—a web development apprentice who decided memes needed a touch of malevolence. This project marks Keshav's first foray into the shadows of web development, quietly hosted at [memereaction.tk](https://memereaction.tk).
 
-Connect with Keshav on [LinkedIn](https://www.linkedin.com/in/keshavbagaade/) and [GitHub](https://github.com/keshavbagaade) to witness the origin story of a meme-loving dark overlord in the making.
+Connect with Keshav on [LinkedIn](https://www.linkedin.com/in/kshvbgde/) and [GitHub](https://github.com/keshav-exe) to witness the origin story of a meme-loving dark overlord in the making.
 
 ## License
 
@@ -30,7 +30,7 @@ This project is a **Personal Project**. Feel free to use our meme packs for pers
 
 ## Cursed Notice
 
-As of [insert date], MemeReaction is eternally locked in the shadows like a meme cursed by ancient incantations. No more updates, no new meme packs. Consider this collection a cursed archive of internet hilarity, brought to you by Keshav's first-ever dark website endeavor.
+As of 2022, MemeReaction is eternally locked in the shadows like a meme cursed by ancient incantations. No more updates, no new meme packs. Consider this collection a cursed archive of internet hilarity, brought to you by Keshav's first-ever dark website endeavor.
 
 ## Disclaimer
 
